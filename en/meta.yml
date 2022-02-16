@@ -6,6 +6,7 @@ listed: false
 copyedit: false
 last_tested: "2022-01-10"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Resistors
+  - title: LEDs
+  - title: RGB LEDs
+  - title: Passive Buzzers
