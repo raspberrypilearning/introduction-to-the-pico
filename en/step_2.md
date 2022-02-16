@@ -36,9 +36,9 @@ To know which resistor you need, you can use this calculation.
   <mi>Forward Current of LED (in Amps, so divide by 1000)</mi>
 </mfrac>
 </math>
-
+</br>
 For instance, for the LED data above needs a resistor of at least 48Ω
-
+</br>
 <math xmlns="&mathml;">
 <mrow>
 <mi>Needed Resistance</mi>
@@ -53,6 +53,7 @@ For instance, for the LED data above needs a resistor of at least 48Ω
   <mi>0.025</mi>
 </mfrac>
 </math>
+</br>
 
 Your resistor can be connected to either leg of your LED, and then to your Raspberry Pi Pico.
 
