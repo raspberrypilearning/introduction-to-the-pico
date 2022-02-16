@@ -61,7 +61,7 @@ Your resistor can be connected to either leg of your LED, and then to your Raspb
 
 [[[led-resistor-solder-heat-shrink]]]
 
-![Raspberry Pi Pico connected to an LED and resistor](https://github.com/raspberrypilearning/led-firefly/blob/draft/en/images/pico_led_13_bb.png)
+![Raspberry Pi Pico connected to an LED and resistor](pico_led_13_bb.png)
 
 
 To turn your LED on and then off again, you could use the following code.
