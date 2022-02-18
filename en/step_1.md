@@ -98,9 +98,9 @@ On a 4 band resistor, the first colour tells you the first digit of the resistan
 </tr>
 </tbody>
 </table>
-For example:
+For example bands you can calculate the resistance of this resistor, like this:
 
-<span class="black"><span style="color: #e6e600;">Yellow</span>&nbsp;<span style="color: #ff00ff;">Violet</span>&nbsp;<span style="color: #ff0000;">Red</span>&nbsp;=&nbsp;<span style="color: #e6e600;">4</span>&nbsp;<span style="color: #ff00ff;">7</span>&nbsp;<span style="color: #ff0000;">2</span>&nbsp;=&nbsp;<span style="color: #e6e600;">4</span>&nbsp;<span style="color: #ff00ff;">7</span>&nbsp;x&nbsp;<span style="color: #ff0000;">10<sup>2</sup></span> = 4700Ω or <span class="ntxt">4k7</span> Ohm.</span>
+<span class="black"><span style="color: #ff0000;">Red</span>&nbsp;<span style="color: #ff0000;">Red</span>&nbsp;<span style="color: #a52a2a;">Brown</span>&nbsp;=&nbsp;<span style="color: #ff0000;">2</span>&nbsp;<span style="color: #ff0000;">2</span>&nbsp;<span style="color: #a52a2a;">1</span>&nbsp;=&nbsp;<span style="color: #ff0000;">2</span>&nbsp;<span style="color: #ff0000;">2</span>&nbsp;x&nbsp;<span style="color: #a52a2a;">10</span> = 220Ω</span>
 
 and
 
