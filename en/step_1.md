@@ -100,8 +100,12 @@ On a 4 band resistor, the first colour tells you the first digit of the resistan
 </table>
 For example bands you can calculate the resistance of this resistor, like this:
 
+![resistor showing bands of red, red, brown](images/220-resistor.png)
+
 <span><span style="color: #ff0000;">Red</span>&nbsp;<span style="color: #ff0000;">Red</span>&nbsp;<span style="color: #a52a2a;">Brown</span>&nbsp;=&nbsp;<span style="color: #ff0000;">2</span>&nbsp;<span style="color: #ff0000;">2</span>&nbsp;<span style="color: #a52a2a;">1</span>&nbsp;=&nbsp;<span style="color: #ff0000;">2</span>&nbsp;<span style="color: #ff0000;">2</span>&nbsp;x&nbsp;<span style="color: #a52a2a;">10</span> = 220Ω</span>
 
 and
+
+![resistor showing bands of violet, green, black](images/75-resistor.png)
 
 <span><span style="color: #ff00ff;">Violet</span>&nbsp;<span style="color: #00b050;">Green</span>&nbsp;<span style="color: #222;">Black</span>&nbsp;=&nbsp;<span style="color: #ff00ff;">7</span>&nbsp;<span style="color: #00b050;">5</span>&nbsp;<span style="color:#222;">1</span>&nbsp;=&nbsp;<span style="color: #ff00ff;">7</span>&nbsp;<span style="color: #00b050;">5</span>&nbsp;x&nbsp;<span style="color: #222;">1</span> = 75Ω</span>
