@@ -8,7 +8,7 @@ The value of a resistor is measured in ohms, and uses the symbol Ω.
 
 You can tell the value of a resistor, by the colour of the bands on it. Most resistors have 4 bands, but 5 and 6 band resistors are also available.
 
-On a 4 band resistor, the first colour tells you the first digit of the resistance, the second band tells you the second digit of the resistance, and the third band tells you what to multiply the first two digit by (or how many zeros to add on the end). The fourth band will tell you how accurate the calculated resistance is as a percentage.
+On a 4 band resistor, the first colour tells you the first digit of the resistance, the second band tells you the second digit of the resistance, and the third band tells you what to multiply the first two digits by (or how many zeros to add on the end). The fourth band will tell you how accurate the calculated resistance is as a percentage.
 
 <table>
 <tbody>

@@ -10,3 +10,4 @@ steps:
   - title: LEDs
   - title: RGB LEDs
   - title: Passive Buzzers
+  - title: Potentiometers

@@ -1,14 +1,16 @@
 ## LEDs
 
-Light Emitting Diodes (LEDs) produce light when a current is passed through them, from the long leg (the anode) to the short leg (the cathode).
+Light Emitting Diodes (LEDs) produce light when electricity is passed through them in a certain direction, from the long leg (the anode) to the short leg (the cathode).
+
+You can get many different colours of LEDs.
 
 <a title="PiccoloNamek, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RBG-LED.jpg"><img width="512" alt="RBG-LED" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RBG-LED.jpg/512px-RBG-LED.jpg"></a>
 
-An LED will often need a resistor to be used in series with it. This is because too much current can cause an LED to burn out, or even explode.
+An LED will usually need a resistor to be used with it. This is because too much current can cause an LED to burn out, or even explode.
 
-To get the maximum brightness from an LED, you need to find the correct resistor.
+To get the maximum brightness from an LED, you need to find the correct resistor to use.
 
-When you buy an LED, you can normally look at a datasheet for it, and find it's `forward voltage` and `forward current`.
+When you buy an LED, you can look at a datasheet for it, and find it's `forward voltage` and `forward current`.
 
 | Parameter | Value |
 |-----------|-------|
