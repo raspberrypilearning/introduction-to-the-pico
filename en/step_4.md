@@ -4,7 +4,7 @@
 
 Some passive buzzers can be connected without worrying about which pin is connected to ground, and which pin is connected to a GPIO pin on the Raspberry Pi Pico. Others have to be connected in a specific way and will normally have a **+** symbol on the surface, to tell you which pin needs connecting to the GPIO signal pin
 
-![passive buzzer connected to a pico on pin 5](images/buzzer-connected)
+![passive buzzer connected to a pico on pin 5](images/buzzer-diagram.png)
 
 To play a note with the passive buzzer you can use the following code.
 
