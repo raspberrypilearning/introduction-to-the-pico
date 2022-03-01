@@ -1,6 +1,6 @@
 ## Passive Buzzers
 
-[[[passive-buzzers]]]
+[[[buzzers-speakers]]]
 
 Some passive buzzers can be connected without worrying about which pin is connected to ground, and which pin is connected to a GPIO pin on the Raspberry Pi Pico. Others have to be connected in a specific way and will normally have a **+** symbol on the surface, to tell you which pin needs connecting to the GPIO signal pin
 

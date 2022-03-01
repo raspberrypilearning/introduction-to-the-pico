@@ -11,3 +11,4 @@ steps:
   - title: RGB LEDs
   - title: Passive Buzzers
   - title: Potentiometers
+  - title: MicroPython firmware
