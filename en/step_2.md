@@ -12,7 +12,9 @@ Plug your micro USB cable into the port on the left-hand side of the board.
 
 --- /task ---
 
-If you need to know the pin numbers for a Raspberry Pi Pico, you can refer to the following diagram.
+A Raspberry Pi Pico has 40 pins on its board. Pins allow you to connect external components to the Raspberry Pi Pico.
+
+If you need to know the pin numbers for a Raspberry Pi Pico, you can refer to the following diagram that shows the underneath side of the Raspberry Pi Pico.
 
 ![Pinout of a Raspberry Pi Pico](images/pico-bottom.png)
 

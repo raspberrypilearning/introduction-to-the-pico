@@ -8,6 +8,8 @@ A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which mean
 
 ![Image of the small Pico board being held in a hand.](images/pico-hand.png)
 
+<mark>Add buying guide for components</mark>
+
 --- collapse ---
 ---
 title: What you will need
@@ -33,6 +35,6 @@ The project will guide you through the installation of:
 
 ### How to use this reference guide
 
-If you have not used a Raspberry Pi Pico before, then this guide will help you to set up ready to complete the [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro).
+If you have not used a Raspberry Pi Pico before, then this guide will help you to get set up and create your first program. Then you will be ready to start the [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path.
 
 You can return to this guide and use it to look up information that you need when you are making your own projects with the Raspberry Pi Pico.

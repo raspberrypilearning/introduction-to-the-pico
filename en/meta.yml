@@ -10,11 +10,11 @@ steps:
   - title: Meet Raspberry Pi Pico
   - title: Install Thonny
   - title: Add the MicroPython firmware
-  - title: Install the picozero library
+  - title: Use the picozero library
   - title: Use the shell 
   - title: Resistors
   - title: LEDs
   - title: RGB LEDs
   - title: Passive Buzzers
   - title: Potentiometers
-  - title: Useful resources
+  - title: Our Raspberry Pi Pico projects
