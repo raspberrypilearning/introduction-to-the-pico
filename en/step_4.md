@@ -2,75 +2,67 @@
 
 If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware. 
 
+[[[add-micropython-firmware]]]
+[[[firmware-installation-menu]]]
+
 --- task ---
 
-Find the BOOTSEL button on your Raspberry Pi Pico. 
+Look at the text in the bottom right of the Thonny editor. It will show you the version of Python that is being used.
 
-![BOOTSEL button](images/Pico-bootsel.png)
+If it does not say 'MicroPython (Raspberry Pi Pico)' then click on the text and select 'MicroPython (Raspberry Pi Pico)'.
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but the same applies to any computer.
+If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will prompt you to add the MicroPython firmware. Click install. 
 
-![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
-
-This puts your Raspberry Pi Pico into USB mass storage device mode. 
+![MicroPython installation window with the Install button highlighted.](images/thonny-install-micropython-pico.png)
 
 --- /task ---
 
 --- task ---
 
-In the bottom right-hand corner of the Thonny window, you will see the version of Python that you are currently using. 
-
-![Status bar version](images/thonny-status-bar-version.png)
-
-Click on the Python version and choose 'MicroPython (Raspberry Pi Pico)':
-
-![Select MicroPython from the menu](images/thonny-micropython-pico-menu.png)
-
-If you don't see this option, then check that you have plugged in your Raspberry Pi Pico. 
-
---- /task ---
-
---- task ---
-
-A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
-
-Click the **Install** button to copy the firmware to your Raspberry Pi Pico. 
-
-![Firmware install](images/thonny-install-micropython-pico.png)
-
-Wait for the installation to complete and click **Close**.
-
---- /task ---
-
+**Debug:** 
 
 --- collapse ---
-
---- 
-
-title: Firmware installation menu
-
 ---
+title: There was an error installing the firmware
+---
+If you see an error message during install then:
++ disconnect your Raspberry Pi Pico
++ reconnect your Raspberry Pi Pico
++ try installing the firmware again (you might need to press the stop button first)
 
-You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
-
-![Configure interpreter menu](images/thonny-configure-interpreter.png)
-
-The interpreter settings will open.
-
-![Configure interpreter settings](images/thonny-interpreter-settings.png)
-
-Click on **Install or update firmware**. 
-
-You will be prompted to plug in your Raspberry Pi Pico while you hold the BOOTSEL button. 
-
-![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
-
-Then you can click **Install**. 
-
-![Install firmware](images/thonny-firmware-install.png)
-
-Wait for the installation to complete and click **Close**.
+![A screenshot of an error message showing that the firmware cannot install correctly.](images/pico-firmware-error.PNG)
 
 --- /collapse ---
 
-You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time, you can just plug it into your computer without pressing the BOOTSEL button.
+--- collapse ---
+
+---
+title: I don't know if firmware is installed and cannot connect to my Pico
+---
+
+Make sure your Raspberry Pi Pico is connected to your computer with a microUSB cable. Click on the list in the bottom right of your Thonny window. A popup menu will appear listing the available interpreters. 
+
+![A popup menu showing an option saying configure interpreter](images/no-pico-interpreter.png) 
+
+If you cannot see the Pico in the list (like in the picture), you will need to reconnect your Raspberry Pi Pico while holding the BOOTSEL button to mount it as a storage volume and reinstall the firmware by following the instructions in the collapse above.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Firmware is installed but I still cannot connect to my Pico
+---
+
+You may be using the wrong kind of microUSB cable. Your current microUSB cable may be damaged, or designed only to carry power to devices and cannot transfer data. Try swapping your cable if nothing else has worked. 
+
+If your Pico still won't connect after trying all these things, it may *itself* be damaged and unable to connect. 
+
+--- /collapse ---
+
+You can find further information in the [Raspberry Pi Pico Guide](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
+
+--- /task ---
+
+
+**Tip:** To update to the latest MicroPython firmware, click on 'MicroPython (Raspberry Pi Pico)' at the bottom of the Thonny window and choose 'Configure interpreter...'. Follow the instructions to update MicroPython.

@@ -6,9 +6,15 @@ listed: false
 copyedit: false
 last_tested: "2022-01-10"
 steps:
+  - title: Introduction
+  - title: Meet Raspberry Pi Pico
+  - title: Install Thonny
+  - title: Add the MicroPython firmware
+  - title: Install the picozero library
+  - title: Use the shell 
   - title: Resistors
   - title: LEDs
   - title: RGB LEDs
   - title: Passive Buzzers
   - title: Potentiometers
-  - title: MicroPython firmware
+  - title: Useful resources

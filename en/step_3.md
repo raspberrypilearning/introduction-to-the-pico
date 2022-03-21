@@ -22,14 +22,4 @@ Open Thonny from your application launcher. It should look something like this:
 
 --- /task ---
 
---- task ---
 
-You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
-
-```python3
-print('Hello World!')
-```
-
---- /task ---
-
-You're now ready to move on to the next step and connect your Raspberry Pi Pico.

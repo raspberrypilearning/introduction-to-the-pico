@@ -6,13 +6,7 @@ A Raspberry Pi Pico is a low-cost microcontroller device. Microcontrollers are t
 
 A Raspberry Pi Pico has GPIO pins, much like a Raspberry Pi computer, which means it can be used to control and receive input from a variety of electronic devices.
 
---- no-print ---
-![LED blinking on a Pico board](images/showcase.gif)
---- /no-print ---
-
---- print-only ---
-![LED in the on position on a Pico board](images/showcase.png)
---- /print-only ---
+![Image of the small Pico board being held in a hand.](images/pico-hand.png)
 
 --- collapse ---
 ---
