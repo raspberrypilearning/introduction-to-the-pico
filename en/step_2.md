@@ -1,84 +1,27 @@
-## LEDs
+## Meet Raspberry Pi Pico
 
-Light Emitting Diodes (LEDs) produce light when a current is passed through them, from the long leg (the anode) to the short leg (the cathode).
+This is a Raspberry Pi Pico. Hopefully your device has already had the header pins soldered on, but if not, you might like to have a look at our [Getting started with soldering resource](https://projects.raspberrypi.org/en/projects/getting-started-with-soldering).
 
-<a title="PiccoloNamek, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RBG-LED.jpg"><img width="512" alt="RBG-LED" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RBG-LED.jpg/512px-RBG-LED.jpg"></a>
+![Raspberry Pi Pico](images/Pico-Top-Headers.png)
 
-An LED will often need a resistor to be used in series with it. This is because too much current can cause an LED to burn out, or even explode.
+--- task ---
 
-To get the maximum brightness from an LED, you need to find the correct resistor.
+If you have a breadboard, put your Raspberry Pi Pico on the board.
 
-When you buy an LED, you can normally look at a datasheet for it, and find it's `forward voltage` and `forward current`.
+Place it so that the two headers are separated by the ravine in the middle.
 
-| Parameter | Value |
-|-----------|-------|
-|**Forward voltage drop**|**2.1V**|
-|Viewing angle|25 degrees
-|**Max forward current**|**25 mA**|
-|Luminous intensity|600 -1000 mCd (@20mA)|
-|Lens types|Water Clear|
+![Pico board on a breadboard](images/Pico-Top-Breadboard.png)
 
-You also need to know your supply voltage, which for Raspberry Pi Pico will be 3.3V.
+--- /task ---
 
-To know which resistor you need, you can use this calculation.
+--- task ---
+ 
+Plug your micro USB cable into the port on the left-hand side of the board.
 
-<math xmlns="&mathml;">
-<mrow>
-<mi>Needed Resistance</mi>
-<mo>=</mo>
-</mrow>
-<mfrac>
-<mrow>
-  <mi>Supply Voltage</mi>
-  <mo>-</mo>
-  <mi>Forward Voltage of LED</mi>
-</mrow>
-  <mi>Forward Current of LED (in Amps, so divide by 1000)</mi>
-</mfrac>
-</math>
-<br>
-For instance, for the LED data above needs a resistor of at least 48Ω
-<br>
-<math xmlns="&mathml;">
-<mrow>
-<mi>Needed Resistance</mi>
-<mo>=</mo>
-</mrow>
-<mfrac>
-<mrow>
-  <mi>3.3</mi>
-  <mo>-</mo>
-  <mi>2.1</mi>
-</mrow>
-  <mi>0.025</mi>
-</mfrac>
-</math>
-<br>
+![Micro USB cable plugged into the Pico](images/Pico-Top-Plug-v2.png)
 
-Your resistor can be connected to either leg of your LED, and then to your Raspberry Pi Pico.
+--- /task ---
 
-[[[led-resistor-electrical-tape]]]
+If you need to know the pin numbers for a Raspberry Pi Pico, you can refer to the following diagram.
 
-[[[led-resistor-solder-heat-shrink]]]
-
-![Raspberry Pi Pico connected to an LED and resistor](images/pico_led_13_bb.png)
-
-
-To turn your LED on and then off again, you could use the following code.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-from picozero import LED
-from time import sleep
-
-yellow = LED(13)
-yellow.on()
-sleep(2)
-yellow.off()
---- /code ---
+![Pinout of a Raspberry Pi Pico](images/Pico-R3-Pinout.png)
