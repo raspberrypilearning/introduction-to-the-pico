@@ -14,12 +14,8 @@ To get the maximum brightness from an LED, you need to find the correct resistor
 --- collapse ---
 
 ---
-title: 
+title: Calculate the correct resistor value for an LED
 ---
-
-
-
---- /collapse ---
 
 When you buy an LED, you can look at a datasheet for it, and find it's `forward voltage` and `forward current`.
 
@@ -67,6 +63,8 @@ For instance, for the LED data above needs a resistor of at least 48Ω
 </mfrac>
 </math>
 <br>
+
+--- /collapse ---
 
 Your resistor can be connected to either leg of your LED, and then to your Raspberry Pi Pico.
 
