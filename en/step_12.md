@@ -8,7 +8,7 @@ Turning the dial on the top of the potentiometer will change the resistance of t
 
 A potentiometer has three pins. The outer pins are normally connected to a 3V3 pin and a GND pin. The middle pin is connected to a GPIO pin capable of reading an analogue signal:
 
-![diagram of a potentiometer with the left pin labeled GND and the right pin labeled 3V3](images/potentiometer-illustration.png)
+![diagram of a potentiometer with the left pin labeled GND and the right pin labeled 3V3](images/potentiometer-illustration.png){:width="300px"}
 
 [[[potentiometer-wiring]]] 
 
@@ -85,7 +85,7 @@ while True:
 title: Change the speed of a tune using a potentiometer
 ---
 
-If you are using a potentiometer to control the speed of a tune then you will need to use the following code: 
+You can use a potentiometer to control the speed of a tune when the tune is playing: 
 
 --- code ---
 ---

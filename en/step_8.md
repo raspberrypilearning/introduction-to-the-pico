@@ -1,15 +1,16 @@
 ## LEDs
 
-Light Emitting Diodes (LEDs) produce light when electricity is passed through them in a certain direction, from the long leg (the anode) to the short leg (the cathode).
+Light Emitting Diodes (LEDs) produce light when an electric current is passed through them. 
 
 You can get many different colours of LEDs.
 
 <a title="PiccoloNamek, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RBG-LED.jpg"><img width="512" alt="RBG-LED" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RBG-LED.jpg/512px-RBG-LED.jpg"></a>
 
-An LED will usually need a resistor to be used with it. This is because too much current can cause an LED to burn out, or even explode.
+**Note:** An LED will only light up when electricity is passed through it in the correct direction, from the long leg (the anode) to the short leg (the cathode).
+
+An LED will usually need a **resistor** to be used with it. This is because too much current can cause an LED to burn out, or even explode. If you bought your LEDs in a kit with the Raspberry Pi Pico then the correct resistors will have been included.
 
 To get the maximum brightness from an LED, you need to find the correct resistor to use.
-
 
 --- collapse ---
 
@@ -74,8 +75,9 @@ Your resistor can be connected to either leg of your LED, and then to your Raspb
 
 ![Raspberry Pi Pico connected to an LED and resistor](images/pico_led_13_bb.png)
 
+[[[single-led-wiring]]]
 
-To turn your LED on and then off again, you could use the following code.
+To turn your LED on and then off again:
 
 --- code ---
 ---
@@ -93,3 +95,7 @@ yellow.on()
 sleep(2)
 yellow.off()
 --- /code ---
+
+[[[pico-led-blink-pulse]]]
+
+[[[diffuse-leds]]]
