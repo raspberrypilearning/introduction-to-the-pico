@@ -87,7 +87,7 @@ To turn your LED on and then off again:
 ---
 language: python
 filename: main.py
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---

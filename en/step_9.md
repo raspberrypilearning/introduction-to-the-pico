@@ -36,7 +36,7 @@ This code makes the LED change between different colours:
 ---
 language: python
 filename: main.py
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---

@@ -22,25 +22,41 @@ You should see something like this:
 
 --- task ---
 
-
 The `pico_led` object from `picozero` allows you to control the onboard LED. 
 
 Enter the following code, make sure you tap Enter after each line.
 
-``` python
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
 from picozero import pico_led
 pico_led.on()
-```
+
+--- /code ---
 
 You should see the onboard LED light up. 
 
-![Onboard LED on](images/Pico-onboard-LED.png)
+![Onboard LED blinking on and off.](images/led-on-off.gif)
 
 Type the code to turn the LED off.
 
-``` python
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
 pico_led.off()
-```
+
+--- /code ---
 
 Turn the LED on and off as many times as you like. 
 
@@ -63,6 +79,7 @@ Look at your Raspberry Pi Pico and find the small LED next to the USB connector.
 Create a new file in Thonny by clicking 'File > New' in the top menu bar. An empty workspace should open.
 
 --- /task ---
+
 --- task ---
 
 Type the following code into the main editor pane in Thonny:
@@ -71,7 +88,7 @@ Type the following code into the main editor pane in Thonny:
 ---
 language: python
 filename: 
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
@@ -101,7 +118,7 @@ Choose a location on your computer such as your 'Documents' folder. Name your fi
 
 + Check that the small LED on the Raspberry Pi Pico turns on. 
 
-![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="300px"}
+![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on-off.gif){:width="300px"}
 
 --- /task ---
 
