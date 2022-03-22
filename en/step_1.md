@@ -19,7 +19,12 @@ title: What you will need
 + A Raspberry Pi Pico with soldered headers
 + A computer that can run the Thonny IDE and program a Raspberry Pi Pico
 + A micro USB data cable
-+ A selection of electronics components, such as a button, an LED with appropriate resistor, and a potentiometer (optional)
++ 1 red LED
++ A selection of other single-colour LEDs
++ At least one RGB LED
++ At least one potentiometer
++ At least one passive buzzer
++ 
 + A selection of pocket-to-socket jumper leads and socket-pin jumper leads.
 + An external 5V micro USB power source (optional) 
 
