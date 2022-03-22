@@ -22,8 +22,6 @@ Click on 'Install'.
 
 When installation has completed, close the package window then exit and reopen Thonny.
 
-<mark>Check install process works.</mark>
-
 --- collapse ---
 
 ---
