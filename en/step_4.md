@@ -30,7 +30,7 @@ If you see an error message during install then:
 + reconnect your Raspberry Pi Pico
 + try installing the firmware again (you might need to press the stop button first)
 
-![A screenshot of an error message showing that the firmware cannot install correctly.](images/pico-firmware-error.PNG)
+![A screenshot of an error message showing that the firmware cannot install correctly.](images/pico-firmware-error.png)
 
 --- /collapse ---
 

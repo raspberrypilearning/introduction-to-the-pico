@@ -22,18 +22,7 @@ Click on 'Install'.
 
 When installation has completed, close the package window then exit and reopen Thonny.
 
---- collapse ---
-
----
-title: I can't install the package
----
-
 If you have difficulties installing the `picozero` library in Thonny, you can download the library file and save it to your Raspberry Pi Pico. 
-
-<mark>Marc writing instructions for the back up plan to install the library directly to the Pico</mark>
-
-
---- /collapse ---
 
 [[[picozero-offline-install]]]
 

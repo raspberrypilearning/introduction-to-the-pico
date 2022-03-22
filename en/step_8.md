@@ -77,6 +77,10 @@ Your resistor can be connected to either leg of your LED, and then to your Raspb
 
 [[[single-led-wiring]]]
 
+Set up your LED in your code:
+
+[[[rgb-led-pins]]]
+
 To turn your LED on and then off again:
 
 --- code ---
@@ -96,6 +100,10 @@ sleep(2)
 yellow.off()
 --- /code ---
 
+You can also use `blink`, `pulse` to create interesting effects:
+
 [[[pico-led-blink-pulse]]]
+
+LEDs can be bright to look at so it's a good idea to diffuse (spread out) the light:
 
 [[[diffuse-leds]]]

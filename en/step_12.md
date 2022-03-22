@@ -10,9 +10,11 @@ A potentiometer has three pins. The outer pins are normally connected to a 3V3 p
 
 ![diagram of a potentiometer with the left pin labeled GND and the right pin labeled 3V3](images/potentiometer-illustration.png){:width="300px"}
 
+Here is how you could wire a potentiometer to a Raspberry Pi Pico:
+
 [[[potentiometer-wiring]]] 
 
-To use `picozero` to control a potentiometer `Pot` needs to be imported and the pin set in your code:
+Set up your potentiometer in your code:
 
 [[[potentiometer-pin]]]
 
@@ -44,6 +46,8 @@ while True:
 The `sleep(0.1)` line slows down the reading and printing of values from the potentiometer so that Thonny can keep up with the output. 
 
 The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right. If your values are the wrong way round you need to swap the jumper wires connected to GND and 3V3.
+
+There are many things you can do with a potentiometer, here are a couple of ideas:
 
 --- collapse ---
 

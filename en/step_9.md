@@ -10,11 +10,27 @@ There are also common anode RGBLEDs, which means that one leg needs connecting t
 
 With either type of RGB LED, a resistor is needed for each pin that is connected to a **GPIO** pin. The datasheet for an RGB LED will tell you the **forward current** and **forward voltage** for each colour on the LED, to help you calculate the resistor needed, although it is often easier just to use a fairly high value resistor on each of the legs, such as a 220Ω.
 
+You can prepare your RGB LEDs ready to use in projects:
+
+[[[rgb-led-resistor-electrical-tape]]]
+
+[[[rgb-led-resistor-solder-heat-shrink]]]
+
 Here is how you could wire an RGB LED to a Raspberry Pi Pico.
 
 ![Raspberry Pi Pico wired to an RGB LED through GPIO pins 1 - 3 and to GND](images/rgb-led-diagram.png)
 
-Here is some code that you could use, to make the LED cycle through the colours.
+[[[rgb-wiring]]]
+
+Set up your RGB LED in your code:
+
+[[[rgb-led-pins]]]
+
+RGB colours can be given using three numbers from 0-255, `(255, 0, 255)` is purple (maximum red and maximum blue). You may need to adjust the colours depending on how bright each of the three colours is for your LED. 
+
+[[[generic-theory-simple-colours]]]
+
+This code makes the LED change between different colours:
 
 --- code ---
 ---
@@ -37,4 +53,8 @@ while True:
     rgb.color = (0, 0, 255)
     sleep(0.5)
 --- /code ---
+
+You can also use `blink`, `pulse` and `cycle` to create colour effects:
+
+[[[pico-rgb-led-blink-pulse-cycle]]]
 
