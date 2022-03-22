@@ -19,14 +19,21 @@ title: What you will need
 + A Raspberry Pi Pico with soldered headers
 + A computer that can run the Thonny IDE and program a Raspberry Pi Pico
 + A micro USB data cable
++ An external 5V micro USB power source (optional) 
+
+To complete the [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path:
+
 + 1 red LED
++ 1 yellow LED
 + A selection of other single-colour LEDs
-+ At least one RGB LED
++ At least one **common cathode** RGB LED
 + At least one potentiometer
 + At least one passive buzzer
-+ 
-+ A selection of pocket-to-socket jumper leads and socket-pin jumper leads.
-+ An external 5V micro USB power source (optional) 
++ At least four push buttons
++ 100Ω resistors (any resistor from 75Ω-220Ω will work) 3 per RGB LED, 1 per single colour LED
++ A selection of socket-to-socket jumper leads and socket-pin jumper leads.
+
+**Note:** You can reuse components in multiple projects. If you have additional components then you won't have to take each project apart to make the next one. 
 
 ### Software
 
@@ -34,7 +41,7 @@ The project will guide you through the installation of:
  
 + The Thonny Python IDE
 + MicroPython firmware for Raspberry Pi Pico
-+ The Pico Zero library
++ The picozero library
 
 --- /collapse ---
 

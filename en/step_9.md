@@ -8,6 +8,8 @@ RGB LEDs will have 4 legs rather than two.
 
 There are two types of RGB LEDs. Some have a **common cathode** which means one leg needs connecting to a **GND** pin and the other three legs need connecting to **GPIO** pins. Some RGB LEDs have a common anode, which means that one leg needs connecting to a **3.3V** pin, and the other legs need connecting to **GPIO** pins.
 
+**Note:** Our projects use **common cathode** RGB LEDs with one leg connected to **GND**.
+
 With either type of RGB LED, a resistor is needed for each pin that is connected to a **GPIO** pin. The datasheet for an RGB LED will tell you the **forward current** and **forward voltage** for each colour on the LED, to help you calculate the resistor needed, although it is often easier just to use a fairly high value resistor on each of the legs, such as a 220Ω.
 
 Here is how you could wire an RGB LED to a Raspberry Pi Pico.
@@ -25,7 +27,7 @@ line_number_start:
 line_highlights: 
 ---
 from picozero import RGBLED
-from utime import sleep
+from time import sleep
 
 rgb = RGBLED(red = 1, green = 2, blue = 3)
 

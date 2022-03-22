@@ -10,6 +10,17 @@ An LED will usually need a resistor to be used with it. This is because too much
 
 To get the maximum brightness from an LED, you need to find the correct resistor to use.
 
+
+--- collapse ---
+
+---
+title: 
+---
+
+
+
+--- /collapse ---
+
 When you buy an LED, you can look at a datasheet for it, and find it's `forward voltage` and `forward current`.
 
 | Parameter | Value |
