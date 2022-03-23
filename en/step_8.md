@@ -77,9 +77,13 @@ Your resistor can be connected to either leg of your LED, and then to your Raspb
 
 [[[single-led-wiring]]]
 
+[[[multiple-single-led-wiring]]] 
+
 Set up your LED in your code:
 
-[[[rgb-led-pins]]]
+[[[sing-led-pins]]]
+
+[[[multiple-single-led-pins]]]
 
 To turn your LED on and then off again:
 
@@ -107,3 +111,5 @@ You can also use `blink`, `pulse` to create interesting effects:
 LEDs can be bright to look at so it's a good idea to diffuse (spread out) the light:
 
 [[[diffuse-leds]]]
+
+[[[generic-theory-simple-colours]]]

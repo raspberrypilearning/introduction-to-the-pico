@@ -22,55 +22,9 @@ You should see something like this:
 
 --- task ---
 
-The `pico_led` object from `picozero` allows you to control the onboard LED. 
-
-Enter the following code, make sure you tap Enter after each line.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-
-from picozero import pico_led
-pico_led.on()
-
---- /code ---
-
-You should see the onboard LED light up. 
-
-![Onboard LED blinking on and off.](images/led-on-off.gif)
-
-Type the code to turn the LED off.
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-pico_led.off()
-
---- /code ---
-
-Turn the LED on and off as many times as you like. 
-
-**Tip:** You can use the up arrow on the keyboard to quickly access previous lines. 
-
---- /task ---
-
-If you want to write a longer program, then it's best to save it in a file. 
-
---- task ---
-
 Look at your Raspberry Pi Pico and find the small LED next to the USB connector. 
 
-![A photo of the Raspberry Pi Pico with the LED highlighted](images/pico-led.jpg){:width="200px"}
+![A photo of the Raspberry Pi Pico with the LED highlighted](images/Pico-onboard-LED.jpeg){:width="200px"}
 
 --- /task ---
 
@@ -118,7 +72,7 @@ Choose a location on your computer such as your 'Documents' folder. Name your fi
 
 + Check that the small LED on the Raspberry Pi Pico turns on. 
 
-![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on-off.gif){:width="300px"}
+![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpeg){:width="300px"}
 
 --- /task ---
 
