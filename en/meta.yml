@@ -16,5 +16,7 @@ steps:
   - title: LEDs
   - title: RGB LEDs
   - title: Passive Buzzers
+  - title: Buttons and switches
   - title: Potentiometers
+  - title: Powering your Pico
   - title: Our Raspberry Pi Pico projects

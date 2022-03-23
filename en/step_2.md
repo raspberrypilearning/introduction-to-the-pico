@@ -18,3 +18,8 @@ If you need to know the pin numbers for a Raspberry Pi Pico, you can refer to th
 
 ![Pinout of a Raspberry Pi Pico](images/pico-bottom.png)
 
+The [Introduction to Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path uses jumper wires to connect electronic component directly to the Raspberry Pi Pico, with resistors as needed. 
+
+[[[pin-socket-jumper-wires]]]
+
+
