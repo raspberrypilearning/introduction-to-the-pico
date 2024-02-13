@@ -3,7 +3,7 @@ title: Introduction to Raspberry Pi Pico guide
 hero_image: images/banner.png
 description: introduction-to-the-pico description
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: '2022-01-10'
 steps:
