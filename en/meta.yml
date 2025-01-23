@@ -9,6 +9,8 @@ last_tested: '2022-01-10'
 steps:
 - title: Introduction
 - title: Meet Raspberry Pi Pico
+  completion:
+  - engaged
 - title: Install Thonny
 - title: Add the MicroPython firmware
 - title: Use the picozero library
@@ -20,4 +22,8 @@ steps:
 - title: Buttons and switches
 - title: Potentiometers
 - title: Powering your Pico
+  completion:
+  - internal
 - title: Our Raspberry Pi Pico projects
+  completion:
+  - external
