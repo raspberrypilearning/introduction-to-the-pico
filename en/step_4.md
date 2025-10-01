@@ -11,7 +11,11 @@ Look at the text in the bottom right of the Thonny editor. It will show you the 
 
 If it does not say 'MicroPython (Raspberry Pi Pico)' then click on the text and select 'MicroPython (Raspberry Pi Pico)'.
 
-If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will prompt you to add the MicroPython firmware. Click install. 
+If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will prompt you to add the MicroPython firmware.
+
+Choose the variant according to your Raspberry Pi Pico model.
+
+Click install. 
 
 ![MicroPython installation window with the Install button highlighted.](images/thonny-install-micropython-pico.png)
 
